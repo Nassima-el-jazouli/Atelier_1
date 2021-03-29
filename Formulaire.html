@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+	<html>
+    	<head>
+        	<meta charset="utf-8" />
+
+            <link rel="stylesheet" href="Formulaire.css">
+            <link rel="stylesheet" href="css/bootstrap.min.css">
+            <link rel="stylesheet" href="js/bootstrap.min.js">
+            <link rel="shortcut icon" type="image/x-icon" href="http://www.favicon.pro/fr/./favicon.ico">
+        	<title>Inscrivez vous !</title>
+    	</head>
+
+    	<body class="container">
+            <header>
+                <div class="monLogo">
+                    <img src="images/education.png">
+                </div>
+                <div id="nomDuPlateForme">
+                    <span id="Online">Online</span><span id="Formation">Formation</span>
+                 <p class="texte">Learning has no age, learning is a lifestyle,it's to wake up every morning in purpose to be the best version of your self, to help and get help from more people. Subscribe now in our free courses and be among our family which is passionate about knowledge and science.</p>
+            </div>
+
+                 </header>
+            <p id="avantFormulaire">Sign up and start learning !</p>
+            <form method="post" action="traitement.php">
+                <div class="formulaire row">
+                    <label class="col-3" for="firstName">First name</label>
+                    <input class="col-6" type="text" name="firstName" id="firstName" placeholder="Imane">
+                </div>
+                <div class="formulaire row">
+                    <label class="col-3" for="lastName">Last name</label>
+                    <input class="col-6" type="text" name="lastName" id="lastName" placeholder="Benchekroun">
+                </div>
+                <div class="formulaire row">
+                    <label class="col-3" for="user">User name</label>
+                    <input class="col-6" type="text" name="user" id="user" placeholder="Imanou">
+                </div>
+                <div class="formulaire row">
+                    <label class="col-3" for="mail">Email address</label>
+                    <input class="col-6" type="email" name="mail" id="mail" placeholder="Benchekroun.Imane@gmail.com">
+                </div>
+                <div class="formulaire row">
+                    <label class="col-3" for="password">Password</label>
+                    <input class="col-6" type="password" name="password" id="password" placeholder="Password">
+                </div>
+                <div class="formulaire row">
+                    <label class="col-3" for="COpassword">Confirm your password</label>
+                    <input class="col-6" type="password" name="COpassword" id="COpassword" placeholder="Password">
+                    <option selected></option>
+                </div>
+                <div class="formulaire row">
+                    <label class="col-3" for="nationality">Nationality</label>
+                    <input class="col-6" type="text" name="nationality" id="nationality" placeholder="Moroccan">
+                </div>
+                <div class="formulaire row">
+                    <label class="col-3" for="birth">Date of birth</label>
+                    <input class="col-6" type="date" name="birth" id="birth" placeholder="10/09/1980">
+                </div>
+                <div  class="formulaire row">
+                    <label class="col-3" for="interest">Center of interest</label>
+                    <select id="interest" class="col-6" class="form-control">
+                        <option>Wellness</option>
+                        <option>Home & Lifestyle</option>
+                        <option>Community & Government</option>
+                        <option>Food</option>
+                        <option>Business</option>
+                        <option>Sports & Gaming</option>
+                        <option>Design & Style</option>
+                        <option>Writing</option>
+                        <option>Science & Tech</option>
+                        <option>Music</option>
+                        <option selected>Filmaking</option>
+                    </select>
+                </div><br >
+                    <label>Sex</label>
+                    <div class="col sex">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Female</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Male</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                        <label class="form-check-label" for="inlineRadio3">Other..</label>
+                    </div>
+                    </div>
+                    <div class="col-sm-10">
+                        <button type="submit" class="btn btn-primary" id="signIn">Sign in</button>
+                    </div>
+            </form>
+            
+            <footer >
+                <div  class="reseau">
+                  
+                        <p class="paraFooter">Follow us in social media..</p>
+                        <img src="images/iconfinder_facebook_online_social_media_734399 (1).png">
+                        <img src="images/iconfinder_instagram_online_social_media_734394.png">
+                        <img src="images/iconfinder_online_social_media_twitter_734377.png">
+                        <img src="images/iconfinder_youtube_online_social_media_734361.png">
+                  </div> 
+                   <div class="cont">
+                 
+                        <p class="paraFooter">Contact us..</p>
+                        <a href="#"><img src="images/iconfinder_email_mail_envelope_send_message_1011336.png">OnlineFormation@gmail.com</a>
+                   
+                 </div> 
+            </footer>
+    	</body>
+	</html>

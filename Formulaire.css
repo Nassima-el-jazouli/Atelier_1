@@ -1,0 +1,148 @@
+/* *************header************* */
+header
+{
+    background-color: #D4FBFB;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-color: #D4FBFB;
+    border-radius: 10px;
+    margin-top: 0%;
+    height: 200px;
+}
+.monLogo
+{
+    margin-top: 20px;
+}
+#nomDuPlateForme
+{
+    margin-left: 220px;
+    margin-top: -170px;
+    text-decoration: solid;
+    font-weight:bold;
+    height: 100px;
+}
+#Online
+{
+    color: #042962;
+}
+#Formation
+{
+    color: #14C4BC;   
+}
+span
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:xx-large;
+    font-weight: 500;
+}
+.texte
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+    text-align: justify;
+    text-decoration: solid;
+    font-weight:bold;
+}
+/* *************body************* */
+body
+{
+    background-image: url('images/student-class-looking-course.jpg');
+}
+/* *************footer************* */
+footer{
+    background-color: #D4FBFB;
+    border-color: #D4FBFB;
+    border-radius: 10px;;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 170px;
+
+}
+.paraFooter
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: solid;
+    font-weight:bold;
+    width: 300px;
+}
+a
+{
+    color: #14C4BC;
+    text-decoration: solid;
+    font-weight:bold;
+}
+a:hover
+{
+    text-decoration: solid, #042962;
+    font-weight: bold;
+}
+.reseau
+{
+    width: 300px;
+    margin-left: 20px;
+
+}
+.cont
+{
+    float: right;
+    margin-top: -70px;
+}
+/* *************form************* */
+form
+{
+    height: 680px;
+    margin-top: 60px;
+}
+#interest
+{
+    border: 2px solid #e8b912;
+    border-radius: 5px;
+}
+.sex
+{
+    margin-left: 300px;
+    margin-top: -30px;
+}
+.formulaire input
+{
+    width: 200px;
+    margin-bottom: 20px;
+}
+a
+{
+    color: #14C4BC;
+    text-decoration: solid;
+    font-weight:bold;
+}
+a:hover
+{
+    text-decoration: solid, #042962;
+    font-weight: bold;
+}
+label
+{
+    text-decoration: solid;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #042962;
+}
+#avantFormulaire
+{
+    text-decoration: solid;
+    text-align: center;
+    font-weight:bold;
+    color: #e8b912;
+    margin-top: 20px;
+}
+input
+{
+    border: 2px solid #e8b912;
+    border-radius: 5px;
+}
+#signIn
+{
+    background-color: #e8b912;
+    margin-left: 600px;
+    margin-top: 40px;
+    border-color: #e8b912;
+}

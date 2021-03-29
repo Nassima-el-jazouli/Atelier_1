@@ -1,0 +1,156 @@
+/*L'inclusion des polices personnalisés dans la page*/
+@font-face
+{
+    font-family: "Ballpark";
+    src: url(polices/ballpark.eot);
+    src: url(polices/ballpark.svg);
+    src: url(polices/ballpark.ttf);
+    src: url(polices/ballpark.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+/* *************header************* */
+/* video
+{
+    width: 800px;
+    margin-left: 360px;
+} */
+header
+{
+    border-bottom: 1px, solid, grey;
+}
+nav
+{
+    width: 100%;
+}
+.navbar-brand
+{
+    font-family: "Ballpark", Arial;
+    font-size: 3em;
+    color: goldenrod;
+}
+.nav-link
+{
+    color:black;
+}
+.dropdown-item
+{
+    color:black;
+}
+.dropdown-menu
+{
+    color:black;
+}
+.btn
+{
+    color: black;
+    border-color: black;
+    background-color: rgb(111, 138, 138);
+}
+.btn:hover
+{
+    background-color: rgb(2, 48, 48);
+}
+#logomaison
+{
+    margin-left: 200px;
+    margin-top: 0px;
+}
+#bienvenue
+{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+#separateur
+{
+    border-bottom: 1px solid black;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 25px;
+}
+/* *************body************* */
+body
+{
+    background-color: rgb(2, 48, 48);
+    width: 100%;
+    height: 2300px;
+}
+.tssawer3
+{
+    height: 531.55px;
+    width: 400px;
+}
+.tssawer2
+{
+    width: 400px;
+}
+.tssawer1
+{
+    width: 400px;
+}
+.tssawer1_
+{
+    margin-bottom: 35px;
+}
+.tssawer2_
+{
+    margin-top: 35px;
+}
+.tssawer3_
+{
+    margin-left: -110px;
+}
+.tssawer1:hover
+{
+    transform: scale(1.2);
+    border: 1px groove black;
+    border-radius: 7%;
+}
+.tssawer2:hover
+{
+    transform: scale(1.2);
+    border: 1px groove black;
+    border-radius: 7%;
+}
+.tssawer3:hover
+{
+    transform: scale(1.2);
+    border: 1px groove black;
+    border-radius: 7%;
+}
+/* *************footer************* */
+footer
+{
+    border-top: 1px, solid, goldenrod;
+    height: 100px;
+}
+#separateur1
+{
+    border-bottom: 1px solid black;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 200px;
+}
+#copy
+{
+    font-size: 0.8em;
+    color: white;
+    text-align: left;
+    margin-left: 70px
+}
+#phrase
+{
+    color: black;
+    font-size: 1em;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#social_media
+{
+    text-align: center;
+}
