@@ -1,2 +1,2 @@
 # Atelier_1
-My first path in html, css.
+My first path in html, css and bootstrap.
